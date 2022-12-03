@@ -1,0 +1,16 @@
+<mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.background]="tile.color">
+      {{tile.text}}
+    </mat-grid-tile>
+  </mat-grid-list>
+  <div>
+  <button mat-raised-button color="accent"><mat-icon>delete</mat-icon>Delete</button>
+  <button mat-raised-button color="accent"><mat-icon>check</mat-icon>Submit</button>
+  <button mat-raised-button color="accent"><mat-icon>close</mat-icon>Cancel</button>
+  <button mat-raised-button color="accent"><mat-icon>add</mat-icon>Add</button>
+  <button mat-raised-button color="accent"><mat-icon>edit</mat-icon>Edit</button>
+  </div>
