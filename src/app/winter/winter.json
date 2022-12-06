@@ -1,60 +1,67 @@
 [
     {
-        "Location":"",
+        "Location":"Waterloo",
         "Price": 150,
         "StarRating":3.5,
-        "CabinId":"1"
+        "CabinId":"1",
+        "Image":"../../assets/winterImages/cabin1.jpg"
     },
     {
-        "Location":"",
+        "Location":"Kitchener",
         "Price": 210,
         "StarRating":4.2,
-        "CabinId":"2"
+        "CabinId":"2",
+        "Image":"../../assets/winterImages/cabin2.jpg"
     },
     {
-        "Location":"",
+        "Location":"Cambridge",
         "Price": 162,
         "StarRating":2.8,
-        "CabinId":"3"
+        "CabinId":"3",
+        "Image":"../../assets/winterImages/cabin3.jpg"
     },
     {
-        "Location":"",
+        "Location":"Milton",
         "Price": 137,
         "StarRating":3.1,
-        "CabinId":"4"
+        "CabinId":"4",
+        "Image":"../../assets/winterImages/cabin4.jpg"
     },
     {
-        "Location":"",
+        "Location":"Toronto",
         "Price": 457,
         "StarRating":4.66,
-        "CabinId":"5"
+        "CabinId":"5",
+        "Image":"../../assets/winterImages/cabin5.jpg"
     },
     {
-        "Location":"",
+        "Location":"London",
         "Price": 213,
         "StarRating":4.11,
-        "CabinId":"6"
+        "CabinId":"6",
+        "Image":"../../assets/winterImages/cabin6.jpg"
     },
     {
-        "Location":"",
+        "Location":"Guelph",
         "Price": 600,
         "StarRating":5,
-        "CabinId":"7"
+        "CabinId":"7",
+        "Image":"../../assets/winterImages/cabin7.jpg"
     },
     {
-        "Location":"",
+        "Location":"Brampton",
         "Price": 432,
         "StarRating":4.52,
-        "CabinId":"8"
+        "Image":"../../assets/winterImages/cabin8.jpg"
     },
     {
-        "Location":"",
+        "Location":"North York",
         "Price": 100,
         "StarRating":3.5,
         "Image":"../../assets/winterImages/cabin9.jpg"
     },
     {
-        "Location":"",
+        "Location":"Markham",
         "Price": 512,
         "StarRating":5,
         "Image":"../../assets/winterImages/cabin10.jpg"
