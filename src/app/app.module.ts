@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,12 +11,19 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule  } from '@angular/material/grid-list';
 import { GridListViewComponent } from './grid-list-view/grid-list-view.component';
+import { SummerComponent } from './summer/summer.component';
+import { WinterComponent } from './winter/winter.component';
+import { CartComponent } from './cart/cart.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    GridListViewComponent
+    GridListViewComponent,
+    SummerComponent,
+    WinterComponent,
+    CartComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +34,7 @@ import { GridListViewComponent } from './grid-list-view/grid-list-view.component
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatGridListModule 
+    MatGridListModule ,
   ],
   providers: [],
   bootstrap: [AppComponent]

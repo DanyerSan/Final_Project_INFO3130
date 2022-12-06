@@ -1,0 +1,40 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .mat-toolbar{
+    background-color: white;
+    color: black;
+  }
+  
+  .toolBarSelectors
+  {
+    font-size: 18px;
+  }
+  
+  button:hover
+  {
+    background-color: rgba(68, 233, 255, 0.247);
+  }
+  
+  .appName
+  {
+    font-size: 22px;
+    color: #339dab;
+    font-weight: bold;
+  }
+
+  a
+  {
+    text-decoration: none;
+    color:black;
+  }

@@ -1,0 +1,62 @@
+[
+    {
+        "Location":"",
+        "Price": 150,
+        "StarRating":3.5,
+        "CabinId":"1"
+    },
+    {
+        "Location":"",
+        "Price": 210,
+        "StarRating":4.2,
+        "CabinId":"2"
+    },
+    {
+        "Location":"",
+        "Price": 162,
+        "StarRating":2.8,
+        "CabinId":"3"
+    },
+    {
+        "Location":"",
+        "Price": 137,
+        "StarRating":3.1,
+        "CabinId":"4"
+    },
+    {
+        "Location":"",
+        "Price": 457,
+        "StarRating":4.66,
+        "CabinId":"5"
+    },
+    {
+        "Location":"",
+        "Price": 213,
+        "StarRating":4.11,
+        "CabinId":"6"
+    },
+    {
+        "Location":"",
+        "Price": 600,
+        "StarRating":5,
+        "CabinId":"7"
+    },
+    {
+        "Location":"",
+        "Price": 432,
+        "StarRating":4.52,
+        "CabinId":"8"
+    },
+    {
+        "Location":"",
+        "Price": 100,
+        "StarRating":3.5,
+        "Image":"../../assets/winterImages/cabin9.jpg"
+    },
+    {
+        "Location":"",
+        "Price": 512,
+        "StarRating":5,
+        "Image":"../../assets/winterImages/cabin10.jpg"
+    }
+]

@@ -1,2 +1,13 @@
-<app-nav-bar></app-nav-bar>
+<mat-toolbar color="primary">
+    <a class="appName">Final Project</a>
+  
+    <div class="spacer"></div>
+  
+  
+    
+      <button mat-button class="toolBarSelectors"> <a routerLink="/winter-component" routerLinkActive="active" ariaCurrentWhenActive="page">Winter</a></button>
+      <button mat-button class="toolBarSelectors"> <a routerLink="/summer-component" routerLinkActive="active" ariaCurrentWhenActive="page">Summer</a></button>
+      <button mat-button class="toolBarSelectors" ><a routerLink="/cart-component" routerLinkActive="active" ariaCurrentWhenActive="page">Cart</a></button>
+      <button mat-button class="toolBarSelectors"><a routerLink="/about-component" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></button>
+  </mat-toolbar>
 <router-outlet></router-outlet>
