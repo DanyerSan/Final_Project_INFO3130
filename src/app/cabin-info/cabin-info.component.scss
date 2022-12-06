@@ -1,13 +1,21 @@
+body{
+    background-color:white;
+}
+
 .mainContainer
 {
-    margin:0 6%,
+    padding-left:20%;
+    padding-right:20%;
+    height: auto;
+    width: auto;
+    padding-top: 2%;
 }
 .image
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: auto;
     border-radius: 15px;
 }
 .purchaseCard
@@ -22,6 +30,7 @@
     border-radius: 10px;
     align-items: center;
     text-align: center;
+    background-color: white;
 }
 .reserveBtn
 {
@@ -30,6 +39,7 @@
     text-align: center;
     padding: 0px 40px;
     margin-top: 20px;
+    
 }
 .cabinInformation
 {
@@ -37,4 +47,11 @@
     width: 50%;
     margin-left: 50px;
     margin-top: 50px;
+    
+}
+.locationName
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #339dab;
 }

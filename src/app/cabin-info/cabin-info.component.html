@@ -1,8 +1,8 @@
-<div class="mainContainer">
+<body>
+    <div class="mainContainer">
 <div>
-    <h1>{{cabinJson.Location}}</h1>
+    <a class="locationName">{{cabinJson.Location}}</a>
     <br>
-    {{cabinJson.StarRating}}<mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 15px;" >star</mat-icon>
 </div>
 <div>
     <img src="{{cabinJson.Image}}" height="450px" class="image" >
@@ -34,7 +34,7 @@
             <mat-datepicker #picker></mat-datepicker>
           </mat-form-field>
     </div>
-    <button mat-raised-button color="accent" class="reserveBtn"><mat-icon>check</mat-icon>Reserve</button>
+    <button mat-raised-button color="accent" class="reserveBtn">Reserve</button>
     <p>Price per night x number of nights</p>
     <p>Total price: $XY.XY</p>
 
@@ -43,3 +43,4 @@
     "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
 </div>
 </div>
+</body>
