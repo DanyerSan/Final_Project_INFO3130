@@ -1,0 +1,28 @@
+mat-card {
+    // width: 50%;
+    margin: 10px;
+}
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . .";
+      margin: 5%;
+    align-items: center;  
+  }
+  
+.container-card{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: #9FC131;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.68); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.68);
+}

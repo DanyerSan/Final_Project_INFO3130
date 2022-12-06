@@ -15,3 +15,30 @@
     text-align: center;
 
 }
+
+mat-card {
+    // width: 50%;
+    margin: 10px;
+}
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . .";
+      margin: 5%;
+      
+  }
+  
+.container-card{
+     width: 250px;
+     height: 300px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      margin: 15px;
+      background-color: #2D83A6;
+      border-radius: 15px;
+}

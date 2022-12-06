@@ -1,1 +1,17 @@
-<p>summer works!</p>
+<div class="container">
+        
+    <mat-card class="container-card"  *ngFor="let tile of cabins" (click)="tileClicked(tile)">
+        <img mat-card-image=""src="{{tile.Image}}" height="150px" width="250px">
+        <mat-card-content>
+       <p>
+          <strong >  {{tile.Location}}</strong> <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar vulputate ex, ut placerat nunc dignissim at.
+          </p>
+        </mat-card-content>
+        <mat-card-actions align="end">
+          <button mat-button=""><strong>${{tile.Price}}</strong> </button>
+          <button mat-button="">{{tile.StarRating}} <mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 15px;" >star</mat-icon></button>
+      
+        </mat-card-actions>
+      </mat-card>
+</div>
