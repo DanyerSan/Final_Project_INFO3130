@@ -1,17 +1,16 @@
 <div class="container">
         
-    <mat-card class="container-card"  *ngFor="let tile of cabins" (click)="tileClicked(tile)">
-        <img mat-card-image=""src="{{tile.Image}}" height="150px" width="250px">
-        <mat-card-content>
-       <p>
-          <strong >  {{tile.Location}}</strong> <br>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar vulputate ex, ut placerat nunc dignissim at.
-          </p>
-        </mat-card-content>
-        <mat-card-actions align="end">
-          <button mat-button=""><strong>${{tile.Price}}</strong> </button>
-          <button mat-button="">{{tile.StarRating}} <mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 25px;" >star</mat-icon></button>
-      
-        </mat-card-actions>
-      </mat-card>
+  <mat-card class="container-card"  *ngFor="let tile of cabins" (click)="tileClicked(tile)">
+    <img mat-card-image=""src="{{tile.Image}}" height="210px" width="250px">
+    
+    <mat-card-content style="margin-top: 10px;">
+      <strong class="location">  {{tile.Location}}</strong> <br>
+      <span class="description">{{tile.Desc}}</span>
+    </mat-card-content>
+    <button mat-button="" class="starRating">{{tile.StarRating}}<mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 25px; margin-right: 3px;" >star</mat-icon></button>
+
+    <mat-card-actions align="end" style="margin-top: -31%; margin-left: 50%;">
+      <button mat-button="" class="price"><strong class="priceNumber">${{tile.Price}}</strong><br> Per Night </button>            
+    </mat-card-actions>
+  </mat-card>
 </div>

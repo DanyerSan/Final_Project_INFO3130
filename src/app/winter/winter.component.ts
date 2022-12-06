@@ -6,7 +6,8 @@ export interface Cabin{
   Location: string,
   Price: number,
   StarRating:number,
-  Image: string
+  Image: string,
+  Desc: string
 }
 
 @Component({

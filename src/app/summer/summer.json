@@ -4,69 +4,79 @@
         "Price": 65,
         "StarRating":4.5,
         "CabinId":"1",
-        "Image":"../../assets/summerImages/cabin1.jpg"
+        "Image":"../../assets/summerImages/cabin1.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Kitchener",
         "Price": 120,
         "StarRating":2.5,
         "CabinId":"2",
-        "Image":"../../assets/summerImages/cabin2.jpg"
+        "Image":"../../assets/summerImages/cabin2.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Cambridge",
         "Price": 185,
         "StarRating":4.8,
         "CabinId":"3",
-        "Image":"../../assets/summerImages/cabin3.jpg"
+        "Image":"../../assets/summerImages/cabin3.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Milton",
         "Price": 130,
         "StarRating":3.7,
         "CabinId":"4",
-        "Image":"../../assets/summerImages/cabin4.jpg"
+        "Image":"../../assets/summerImages/cabin4.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Toronto",
         "Price": 650,
         "StarRating":4.7,
         "CabinId":"5",
-        "Image":"../../assets/summerImages/cabin5.jpg"
+        "Image":"../../assets/summerImages/cabin5.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"London",
         "Price": 250,
         "StarRating":4.1,
         "CabinId":"6",
-        "Image":"../../assets/summerImages/cabin6.jpg"
+        "Image":"../../assets/summerImages/cabin6.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Guelph",
         "Price": 400,
         "StarRating":5,
         "CabinId":"7",
-        "Image":"../../assets/summerImages/cabin7.jpg"
+        "Image":"../../assets/summerImages/cabin7.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Brampton",
         "Price": 520,
         "StarRating":3,
         "CabinId":"8",
-        "Image":"../../assets/summerImages/cabin8.jpg"
+        "Image":"../../assets/summerImages/cabin8.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"North York",
         "Price": 230,
         "StarRating":5,        
         "CabinId":"9",
-        "Image":"../../assets/summerImages/cabin9.jpg"
+        "Image":"../../assets/summerImages/cabin9.jpg",
+        "Desc" :"3 bed, 2 bath"
     },
     {
         "Location":"Markham",
         "Price": 120,
         "StarRating":2.5,
         "CabinId":"10",
-        "Image":"../../assets/summerImages/cabin10.jpg"
+        "Image":"../../assets/summerImages/cabin10.jpg",
+        "Desc" :"3 bed, 2 bath"
     }
 ]

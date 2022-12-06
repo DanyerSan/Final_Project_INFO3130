@@ -1,17 +1,12 @@
-mat-card {
-    // width: 50%;
-    margin: 10px;
-}
+
 .container {  
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 1px 15px;
     grid-auto-flow: row;
     grid-template-areas:
       ". . . .";
       margin: 5%;
-    align-items: center;  
   }
   
 .container-card{
@@ -21,8 +16,37 @@ mat-card {
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 15px;
-    background-color: #9FC131;
+    background-color: rgba(32, 221, 25, 0.397);
     border-radius: 15px;
     -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.68); 
     box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.68);
+}
+.starRating
+{
+  margin-top: -85%;
+  height:20px;
+  background-color: rgba(0, 0, 0, 0.726);
+  color: white;
+  border-radius: 50px;
+}
+
+.location
+{
+  margin-top: 10px;
+  margin-left: -15px;
+  font-size: 20px;
+}
+.description
+{
+  margin-left: -15px;
+  font-size: 14px;
+}
+.price
+{
+  font-size: 14px;
+}
+.priceNumber
+{
+  font-size: 18px;
+  font-weight: bold;
 }

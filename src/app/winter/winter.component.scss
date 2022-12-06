@@ -1,44 +1,52 @@
-.mat-grid-tile
-{
-    border-radius: 15px;
-    background-color: #339dab;
-}
-.TileInfo
-{
-    font-size: 12px;
-    align-items: center;
-    
-}
-.TileContainer
-{
-    align-items: center;
-    text-align: center;
 
-}
-
-mat-card {
-    // width: 50%;
-    margin: 10px;
-}
 .container {  
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 1px 15px;
     grid-auto-flow: row;
     grid-template-areas:
       ". . . .";
       margin: 5%;
-      
   }
   
 .container-card{
-     width: 250px;
-     height: 300px;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-around;
-      margin: 15px;
-      background-color: #2D83A6;
-      border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: #66b8d894;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.68); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.68);
+}
+.starRating
+{
+  margin-top: -85%;
+  height:20px;
+  background-color: rgba(0, 0, 0, 0.726);
+  color: white;
+  border-radius: 50px;
+}
+
+.location
+{
+  margin-top: 10px;
+  margin-left: -15px;
+  font-size: 20px;
+}
+.description
+{
+  margin-left: -15px;
+  font-size: 14px;
+}
+.price
+{
+  font-size: 14px;
+}
+.priceNumber
+{
+  font-size: 18px;
+  font-weight: bold;
 }

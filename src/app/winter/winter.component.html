@@ -1,46 +1,16 @@
-<!-- <div style="margin:0 6%">
-    <div>
-
-    </div>
-    <mat-grid-list cols="4" rowHeight="100px" [gutterSize]="'10px'">
-        <mat-grid-tile
-            *ngFor="let tile of cabins"
-            [colspan]="1"
-            [rowspan]="2"
-            (click)="tileClicked(tile)">
-            <div class="TileContainer">
-            <img src="{{tile.Image}}" height="150px" width="250px">
-            <div class="TileInfo">
-                {{tile.Location}}
-                ${{tile.Price}}
-                {{tile.StarRating}} <mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 15px;" >star</mat-icon>
-            </div>    
-            </div>
-        </mat-grid-tile>
-      </mat-grid-list>
-      <div >
-      <button mat-raised-button color="accent"><mat-icon>delete</mat-icon>Delete</button>
-      <button mat-raised-button color="accent"><mat-icon>check</mat-icon>Submit</button>
-      <button mat-raised-button color="accent"><mat-icon>close</mat-icon>Cancel</button>
-      <button mat-raised-button color="accent"><mat-icon>add</mat-icon>Add</button>
-      <button mat-raised-button color="accent"><mat-icon>edit</mat-icon>Edit</button>
-      </div>
-    </div> -->
-
-    <div class="container">
+<div class="container">
         
-        <mat-card class="container-card"  *ngFor="let tile of cabins" (click)="tileClicked(tile)">
-            <img mat-card-image=""src="{{tile.Image}}" height="150px" width="250px">
-            <mat-card-content>
-           <p>
-              <strong >  {{tile.Location}}</strong> <br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar vulputate ex, ut placerat nunc dignissim at.
-              </p>
-            </mat-card-content>
-            <mat-card-actions align="end">
-              <button mat-button=""><strong>${{tile.Price}}</strong> </button>
-              <button mat-button="">{{tile.StarRating}} <mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 25px;" >star</mat-icon></button>
-          
-            </mat-card-actions>
-          </mat-card>
+  <mat-card class="container-card"  *ngFor="let tile of cabins" (click)="tileClicked(tile)">
+    <img mat-card-image=""src="{{tile.Image}}" height="210px" width="250px">
+    
+    <mat-card-content style="margin-top: 10px;">
+      <strong class="location">  {{tile.Location}}</strong> <br>
+      <span class="description">{{tile.Desc}}</span>
+    </mat-card-content>
+    <button mat-button="" class="starRating">{{tile.StarRating}}<mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 25px; margin-right: 3px;" >star</mat-icon></button>
+
+    <mat-card-actions align="end" style="margin-top: -31%; margin-left: 50%;">
+      <button mat-button="" class="price"><strong class="priceNumber">${{tile.Price}}</strong><br> Per Night </button>            
+    </mat-card-actions>
+  </mat-card>
 </div>
