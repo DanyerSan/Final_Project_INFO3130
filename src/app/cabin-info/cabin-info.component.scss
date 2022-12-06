@@ -21,7 +21,7 @@ body{
 .purchaseCard
 {
     float: right;
-    margin-right: 50px;
+    margin-right: 10%;
     margin-top: 50px;
     border: 1px;
     border-style: solid;
@@ -44,8 +44,8 @@ body{
 .cabinInformation
 {
     float: left;
-    width: 50%;
-    margin-left: 50px;
+    width: 35%;
+    margin-left: 20%;
     margin-top: 50px;
     
 }
@@ -54,4 +54,24 @@ body{
     font-size: 40px;
     font-weight: bold;
     color: #339dab;
+    padding-left: 20%;
+}
+.starRating
+{
+  height:45px;
+  margin: 0 0 -70px 70%;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.726);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 22px;
+  align-items: center;
+  padding-bottom: -10px;
+}
+.star
+{
+    color: #fffd6e;
+    transform:scale(1.3);
+    padding-top: -10px;
 }

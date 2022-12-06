@@ -2,14 +2,17 @@
     <div class="mainContainer">
 <div>
     <a class="locationName">{{cabinJson.Location}}</a>
-    <br>
+    <br><br><br>
 </div>
 <div>
+    <button mat-button="" class="starRating">{{cabinJson.StarRating}}<mat-icon class="star" >star</mat-icon></button>
     <img src="{{cabinJson.Image}}" height="450px" class="image" >
 </div>
 <div class="purchaseCard">
     <br><br>
+    <span>
     ${{cabinJson.Price}} CAD per Night 
+    </span>
     <br><br>
     Number of guests 
         <input
@@ -18,21 +21,13 @@
             id="myNumber"
         />
     <div>
-        <mat-form-field appearance="fill">
+       <!-- <mat-form-field appearance="fill">
             <mat-label>Choose a date</mat-label>
             <input matInput [matDatepicker]="picker">
             <mat-hint>MM/DD/YYYY</mat-hint>
             <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>    
-          <br>
-          <mat-form-field appearance="fill">
-            <mat-label>Choose a date</mat-label>
-            <input matInput [matDatepicker]="picker">
-            <mat-hint>MM/DD/YYYY</mat-hint>
-            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>
+          </mat-form-field> -->
     </div>
     <button mat-raised-button color="accent" class="reserveBtn">Reserve</button>
     <p>Price per night x number of nights</p>
@@ -40,7 +35,7 @@
 
 </div>
 <div class="cabinInformation">
-    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+    {{cabinJson.Full}}
 </div>
 </div>
 </body>
