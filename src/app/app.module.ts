@@ -15,6 +15,7 @@ import { SummerComponent } from './summer/summer.component';
 import { WinterComponent } from './winter/winter.component';
 import { CartComponent } from './cart/cart.component';
 import { AboutComponent } from './about/about.component';
+import { CabinInfoComponent } from './cabin-info/cabin-info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AboutComponent } from './about/about.component';
     SummerComponent,
     WinterComponent,
     CartComponent,
-    AboutComponent
+    AboutComponent,
+    CabinInfoComponent
   ],
   imports: [
     BrowserModule,

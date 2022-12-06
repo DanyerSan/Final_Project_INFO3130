@@ -52,18 +52,21 @@
         "Location":"Brampton",
         "Price": 432,
         "StarRating":4.52,
+        "CabinId":"8",
         "Image":"../../assets/winterImages/cabin8.jpeg"
     },
     {
         "Location":"North York",
         "Price": 100,
         "StarRating":3.5,
+        "CabinId":"9",
         "Image":"../../assets/winterImages/cabin9.jpg"
     },
     {
         "Location":"Markham",
         "Price": 512,
         "StarRating":5,
+        "CabinId":"10",
         "Image":"../../assets/winterImages/cabin10.jpg"
     }
 ]

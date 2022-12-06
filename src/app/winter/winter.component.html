@@ -6,7 +6,8 @@
         <mat-grid-tile
             *ngFor="let tile of cabins"
             [colspan]="1"
-            [rowspan]="2">
+            [rowspan]="2"
+            (click)="tileClicked(tile)">
             <div class="TileContainer">
             <img src="{{tile.Image}}" height="150px" width="250px">
             <div class="TileInfo">
