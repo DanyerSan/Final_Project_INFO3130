@@ -1,8 +1,17 @@
 .mat-grid-tile
 {
     border-radius: 15px;
+    background-color: #339dab;
 }
-.oversize {
-    width: 50%;
-    height: 50%;
+.TileInfo
+{
+    font-size: 12px;
+    align-items: center;
+    
+}
+.TileContainer
+{
+    align-items: center;
+    text-align: center;
+
 }

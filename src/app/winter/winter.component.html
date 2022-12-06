@@ -5,12 +5,16 @@
     <mat-grid-list cols="4" rowHeight="100px" [gutterSize]="'10px'">
         <mat-grid-tile
             *ngFor="let tile of cabins"
-            [colspan]="2"
+            [colspan]="1"
             [rowspan]="2">
-            <img src="../../assets/winterImages/cabin1.jpg" class="oversize" >
-          {{tile.Location}}
-          ${{tile.Price}}
-          {{tile.StarRating}} <mat-icon style="color: #fffd6e;">star</mat-icon>
+            <div class="TileContainer">
+            <img src="{{tile.Image}}" height="150px" width="250px">
+            <div class="TileInfo">
+                {{tile.Location}}
+                ${{tile.Price}}
+                {{tile.StarRating}} <mat-icon style="color: #fffd6e; height: 5px; padding-top: 10px; padding-bottom: 15px;" >star</mat-icon>
+            </div>    
+            </div>
         </mat-grid-tile>
       </mat-grid-list>
       <div >

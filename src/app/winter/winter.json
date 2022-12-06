@@ -11,7 +11,7 @@
         "Price": 210,
         "StarRating":4.2,
         "CabinId":"2",
-        "Image":"../../assets/winterImages/cabin2.jpg"
+        "Image":"../../assets/winterImages/cabin2.jpeg"
     },
     {
         "Location":"Cambridge",
@@ -52,7 +52,7 @@
         "Location":"Brampton",
         "Price": 432,
         "StarRating":4.52,
-        "Image":"../../assets/winterImages/cabin8.jpg"
+        "Image":"../../assets/winterImages/cabin8.jpeg"
     },
     {
         "Location":"North York",
