@@ -16,6 +16,10 @@ import { WinterComponent } from './winter/winter.component';
 import { CartComponent } from './cart/cart.component';
 import { AboutComponent } from './about/about.component';
 import { CabinInfoComponent } from './cabin-info/cabin-info.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,7 @@ import { CabinInfoComponent } from './cabin-info/cabin-info.component';
     CartComponent,
     AboutComponent,
     CabinInfoComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -36,7 +40,13 @@ import { CabinInfoComponent } from './cabin-info/cabin-info.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatGridListModule ,
+    MatGridListModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatNativeDateModule,
+    MatFormFieldModule
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

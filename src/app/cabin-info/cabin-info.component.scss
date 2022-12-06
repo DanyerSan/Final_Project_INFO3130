@@ -10,3 +10,31 @@
     width: 90%;
     border-radius: 15px;
 }
+.purchaseCard
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 1px;
+    border-style: solid;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.reserveBtn
+{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 20px;
+}
+.cabinInformation
+{
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
