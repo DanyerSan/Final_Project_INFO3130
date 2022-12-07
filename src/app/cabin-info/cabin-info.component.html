@@ -6,32 +6,36 @@
 </div>
 <div>
     <button mat-button="" class="starRating">{{cabinJson.StarRating}}<mat-icon class="star" >star</mat-icon></button>
-    <img src="{{cabinJson.Image}}" height="450px" class="image" >
+    <img src="{{cabinJson.Image}}" height="450px"  class="image" >
+</div>
+<div class="beds">
+    {{cabinJson.Desc}}
 </div>
 <div class="purchaseCard">
     <br><br>
-    <span>
-    ${{cabinJson.Price}} CAD per Night 
+    <span class="price">
+    ${{cabinJson.Price}} CAD 
     </span>
+    <br>per Night
     <br><br>
-    Number of guests 
-        <input
-            mdInput
-            type="number"
-            id="myNumber"
-        />
+    Number of Nights
+    <br><br>
+    <button (click)="MChangeTotal()">-</button>
+    <span class="numNights">{{numOfNights}}</span>
+    <button (click)="ChangeTotal()">+</button>
     <div>
-       <!-- <mat-form-field appearance="fill">
-            <mat-label>Choose a date</mat-label>
-            <input matInput [matDatepicker]="picker">
-            <mat-hint>MM/DD/YYYY</mat-hint>
-            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field> -->
+    <!-- <mat-form-field appearance="fill">
+        <mat-label>Choose a date</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field> -->
     </div>
-    <button mat-raised-button color="accent" class="reserveBtn">Reserve</button>
-    <p>Price per night x number of nights</p>
-    <p>Total price: $XY.XY</p>
+    <p>Subtotal Price: {{subTotal}}</p>
+    <p>Taxes 13%</p>
+    <p>Total price: {{totalPrice | number:'1.2-2'}}</p>
+    <button mat-raised-button class="reserveBtn">Book</button>
 
 </div>
 <div class="cabinInformation">
