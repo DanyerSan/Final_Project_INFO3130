@@ -1,7 +1,7 @@
 <div class="container">
         
   <mat-card class="container-card"  *ngFor="let tile of cabins" (click)="tileClicked(tile)">
-    <img mat-card-image=""src="{{tile.Image}}" height="210px" width="250px">
+    <img class="image" mat-card-image=""src="{{tile.Image}}" >
     
     <mat-card-content style="margin-top: 10px;">
       <strong class="location">  {{tile.Location}}</strong> <br>
