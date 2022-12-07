@@ -32,13 +32,21 @@ export class CabinInfoComponent {
   {
     this.numOfNights = this.numOfNights + 1;
     this.subTotal = this.numOfNights * this.cabinJson.Price;
-    this.totalPrice = this.subTotal * 1.13;
+    this.totalPrice = this.subTotal * 1.13;   
   }
   MChangeTotal()
   {
     this.numOfNights = this.numOfNights - 1;
     this.subTotal = this.numOfNights * this.cabinJson.Price;
     this.totalPrice = this.subTotal * 1.13;
+  }
+
+  bookingClicked()
+  {
+    this.router.navigate(['booking-component'],
+    {
+      queryParams:{cabinPass:JSON.stringify(this.cabinJson), quantity:JSON.stringify(this.totalPrice)}
+    })
   }
 
 }

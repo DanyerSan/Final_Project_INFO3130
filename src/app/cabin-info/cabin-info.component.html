@@ -35,7 +35,7 @@
     <p>Subtotal Price: {{subTotal}}</p>
     <p>Taxes 13%</p>
     <p>Total price: {{totalPrice | number:'1.2-2'}}</p>
-    <button mat-raised-button class="reserveBtn">Book</button>
+    <button mat-raised-button class="reserveBtn" (click)="bookingClicked()">Book</button>
 
 </div>
 <div class="cabinInformation">
